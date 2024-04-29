@@ -122,9 +122,14 @@ function themeBtn() {
     let red = Math.random() * 255;
     let green = Math.random() * 255;
     let blue = Math.random() * 255;
+    let red1 = Math.random() * 255;
+    let green2 = Math.random() * 255;
+    let blue3 = Math.random() * 255;
+
     var randomColor = `rgb(${red}, ${green}, ${blue})`;
+    var randomText = `rgb(${red1}, ${green2}, ${blue3})`;
 
     document.body.style.background = `${randomColor}`;
-    document.body.style.color = `black`;
+    document.body.style.color = `${randomText}`;
   }
 }
